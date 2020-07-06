@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:key="pref_key_nalog_api_settings"
+        android:title="@string/pref_nalog_api_group_title">
+
+<!--        <Preference-->
+<!--            android:key="@string/pref_nalog_api_phone_key"-->
+<!--            android:title="@string/pref_nalog_api_phone_title"/>-->
+
+        <Preference
+            app:key="@string/pref_nalog_api_auth_key"
+            android:title="@string/pref_nalog_api_auth_title"/>
+        <SwitchPreference
+            android:key="@string/pref_nalog_api_autodownload_key"
+            android:title="@string/pref_nalog_api_autodownload_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_theme_group_key"
+        android:title="@string/pref_theme_group_title">
+
+        <DropDownPreference
+            android:key="@string/pref_theme_key"
+            android:title="@string/pref_theme_title"
+            android:entries="@array/prefThemeTitles"
+            android:entryValues="@array/prefThemeValues"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_storage_key"
+        android:title="@string/pref_storage_value">
+
+        <Preference
+            android:key="@string/pref_storage_drop_key"
+            android:title="@string/pref_storage_drop_title"/>
+    </PreferenceCategory>
+
+    <Preference
+        android:key="@string/pref_about_key"
+        android:title="@string/pref_about_label"/>
+
+</PreferenceScreen>

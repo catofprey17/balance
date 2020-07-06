@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ru.c17.balance.MainScreen.BarcodeReaderCameraPreview
+        android:id="@+id/surface_camera"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="4:5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ru.c17.balance.MainScreen.FocusView
+        android:id="@+id/focus_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/text_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="@string/label_receipt_already_exists"
+        android:textColor="@color/colorError"
+        android:textSize="32sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/surface_camera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/focus_view" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_flashlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/surface_camera" />
+
+    <ImageView
+        android:id="@+id/image_flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_flash_off"
+        android:tint="@color/colorError"
+        app:layout_constraintBottom_toTopOf="@id/switch_flashlight"
+        app:layout_constraintStart_toStartOf="@id/switch_flashlight"
+        app:layout_constraintEnd_toEndOf="@id/switch_flashlight"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

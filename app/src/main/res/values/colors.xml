@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#0F4C81</color>-->
+<!--    <color name="colorPrimaryDark">#002554</color>-->
+    <color name="colorAccent">#9B1B30</color>
+<!--    <color name="colorPrimaryLight">#4c77b1</color>-->
+    <color name="colorFocus">#B0CBE7</color>
+    <color name="colorFocusBack">#CBD8E4</color>
+
+    <color name="colorPrimary">#0F4C81</color>
+    <color name="colorPrimaryVariant">#002554</color>
+    <color name="colorSecondary">#9B1B30</color>
+    <color name="colorSecondaryVariant">#018786</color>
+
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorError">#B00020</color>
+
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorOnError">#FFFFFF</color>
+
+
+
+    <color name="textCardColor">#DE000000</color>
+
+    <color name="textSummaryColor">#99000000</color>
+
+
+
+    <!--  Pie Chart Colors  -->
+    <color name="colorPieOther">#5c5c5c</color>
+
+    <color name="colorPieGrocery">#f7c716</color>
+    <color name="colorPieAlcohol">#b82e30</color>
+    <color name="colorPieTobacco">#80650e</color>
+    <color name="colorPieGasoline">#e05353</color>
+    <color name="colorPieComputer">#19adcf</color>
+    <color name="colorPieMobile">#1983cf</color>
+    <color name="colorPieAudio">#8319cf</color>
+    <color name="colorPieKnitting">#ecf01a</color>
+    <color name="colorPieBuilding">#5c3505</color>
+    <color name="colorPieAppliances">#24ede6</color>
+    <color name="colorPieBooks">#0bdb35</color>
+    <color name="colorPieStationery">#166491</color>
+    <color name="colorPieMusic">#0f467a</color>
+    <color name="colorPieTravelEquip">#0f467a</color>
+    <color name="colorPieToys">#de9800</color>
+    <color name="colorPieClothes">#ccaf70</color>
+    <color name="colorPieMedicine">#d9d9d9</color>
+    <color name="coloPieCosmetics">#db78eb</color>
+    <color name="colorPieFlowers">#ff42f6</color>
+    <color name="colorPieJewelry">#ffe045</color>
+    <color name="colorPieHotels">#45ffd7</color>
+    <color name="colorPieRestaurants">#ff8645</color>
+    <color name="colorPieBars">#1a1b1c</color>
+    <color name="colorPieTransport">#42aaf5</color>
+
+
+
+    <color name="colorPeriodWinter">#660D38B5</color>
+    <color name="colorPeriodSpring">#6637EF60</color>
+    <color name="colorPeriodSummer">#66FFD710</color>
+    <color name="colorPeriodAutumn">#66B6650D</color>
+
+    <color name="colorReceiptCardBackdround">@color/colorBackground</color>
+
+    <color name="menuIconColor">#FFFFFF</color>
+
+
+
+</resources>

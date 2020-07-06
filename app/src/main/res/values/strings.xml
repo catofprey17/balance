@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name" translatable="false">Balance</string>
+    <string name="title_activity_list" translatable="false">ListActivity</string>
+
+
+    <!--  Preferences  -->
+
+    <!-- Nalog API -->
+    <string name="pref_nalog_api_group_title" translatable="false">Nalog API</string>
+
+    <string name="pref_nalog_api_phone_title">Phone</string>
+    <string name="pref_nalog_api_phone_key" translatable="false">pref-nalog-api-phone-key</string>
+
+    <string name="pref_nalog_api_password_title">Password</string>
+    <string name="pref_nalog_api_password_key" translatable="false">pref-nalog-password-key</string>
+
+    <string name="pref_nalog_api_email_title" translatable="false">Email</string>
+    <string name="pref_nalog_api_email_key" translatable="false">pref-nalog-password-key</string>
+
+    <string name="pref_nalog_api_auth_key" translatable="false">pref-nalog-api-auth-key</string>
+    <string name="pref_nalog_api_auth_title">Authentication</string>
+
+    <!-- Months -->
+    <string name="month_jan">January</string>
+    <string name="month_feb">February</string>
+    <string name="month_mar">March</string>
+    <string name="month_apr">April</string>
+    <string name="month_may">May</string>
+    <string name="month_jun">June</string>
+    <string name="month_jul">July</string>
+    <string name="month_aug">August</string>
+    <string name="month_sep">September</string>
+    <string name="month_oct">October</string>
+    <string name="month_nov">November</string>
+    <string name="month_dec">December</string>
+    <string name="menu_item_settings_title">Settings</string>
+    <string name="sign_up_dialog_title">Sign Up to provekacheka.nalog.ru</string>
+    <string name="store">Store</string>
+    <string name="menu_item_edit_title">Edit</string>
+    <string name="menu_item_download_title">Download</string>
+    <string name="menu_item_stat_title">Statistics</string>
+    <string name="snack_receipt_removed_string">Receipt removed</string>
+    <string name="snack_undo_string">UNDO</string>
+    <string name="category_grocery">Grocery</string>
+    <string name="category_alcohol">Alcohol</string>
+    <string name="category_tobacco">Tobacco</string>
+    <string name="category_gasoline">Gasoline</string>
+    <string name="category_computer">Computer</string>
+    <string name="category_mobile">Mobile phone</string>
+    <string name="category_etc">Other</string>
+    <string name="category_audio_video">Audio/Video</string>
+    <string name="category_knitting">Knitting</string>
+    <string name="category_building_material">Building materials</string>
+    <string name="category_appliances">Appliances</string>
+    <string name="category_books">Books</string>
+    <string name="category_stationery">Stationery</string>
+    <string name="category_music">Music</string>
+    <string name="category_travel_equipment">Travel Equipment</string>
+    <string name="category_toys">Toys</string>
+    <string name="category_clothes">Clothes</string>
+    <string name="category_medicine">Medicine</string>
+    <string name="category_cosmetics">Cosmetics</string>
+    <string name="category_flowers">Flowers</string>
+    <string name="category_jewerly">Jewelry</string>
+    <string name="category_hotels">Hotels</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_bars">Bars</string>
+    <string name="category_transport">Transport</string>
+    <string name="activity_add_receipt_title">Add receipt</string>
+    <string name="activity_detail_title">Details</string>
+    <string name="activity_periods_title">Stat</string>
+    <string name="activity_edit_receipt_title">Edit receipt</string>
+    <string name="activity_settings_title">Settings</string>
+    <string name="shared_preferences_main" translatable="false">shared-preferences-main</string>
+    <string name="pref_theme_group_title">Theme</string>
+    <string name="pref_theme_group_key" translatable="false">pref-theme-group-key</string>
+    <string name="pref_theme_value_light">Light</string>
+    <string name="pref_theme_value_dark">Dark</string>
+    <string name="pref_theme_value_default">Default</string>
+    <string name="pref_theme_key" translatable="false">pref-theme-key</string>
+    <string name="pref_theme_title">Theme</string>
+    <string name="pref_nalog_api_autodownload_key" translatable="false">pref-nalog-api-autodownload</string>
+    <string name="pref_nalog_api_autodownload_title">Download receipt automatically</string>
+    <string name="theme_value_default" translatable="false">default</string>
+    <string name="theme_value_dark" translatable="false">dark</string>
+    <string name="theme_value_light" translatable="false">light</string>
+    <string name="pref_storage_key" translatable="false">pref-storage-key</string>
+    <string name="pref_storage_value">Storage</string>
+    <string name="pref_storage_drop_key" translatable="false">pref-storage-drop</string>
+    <string name="pref_storage_drop_title">Drop storage</string>
+    <string name="toast_fill_sum">Sum is empty</string>
+    <string name="label_store">Store</string>
+    <string name="label_category">Category</string>
+    <string name="label_date">Date</string>
+    <string name="hint_store_name">Store name</string>
+    <string name="hint_sum" translatable="false">0.00</string>
+    <string name="fns_log_description">\"ФНС\" Logo</string>
+    <string name="label_sign_up">Sign Up</string>
+    <string name="label_sign_in">Sign In</string>
+    <string name="label_restore">Restore</string>
+    <string name="label_no_account">No account?</string>
+    <string name="label_receipt_already_exists">Receipt already exists</string>
+    <string name="label_no_receipts">No receipts</string>
+    <string name="license_activity_title">License</string>
+    <string name="libraries_label">Using libraries</string>
+    <string name="pref_about_key" translatable="false">pref-about-key</string>
+    <string name="pref_about_label">About</string>
+    <string name="toast_fill_info">It is necessary to fill whole info</string>
+    <string name="error_no_internet">No Internet connection</string>
+    <string name="empty_cred_dialog_title">Need to sign in to Nalog.ru</string>
+    <string name="empty_cred_dialog_message">It is necessary to download receipt info</string>
+    <string name="wrong_cred_dialog_title">Wrong login or password</string>
+    <string name="wrong_cred_dialog_message">Please sign in with correct phone and password</string>
+    <string name="dialog_button_cred_sign_in">Sign In</string>
+    <string name="dialog_button_cred_cancel">Cancel</string>
+
+    <string name="input_hint_sum">Sum</string>
+    <string name="input_hint_date" >Date</string>
+    <string name="error_sum_empty">Please fill the sum</string>
+    <string name="hint_phone">Phone number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_email" translatable="false">Email</string>
+    <string name="dialog_drop_title">All receipts will be removed</string>
+    <string name="dialog_drop_message">You won\'t be able to restore them. Are you sure?</string>
+    <string name="dialog_drop_yes">Yes</string>
+    <string name="dialog_drop_no">No</string>
+    <string name="dialog_drop_done">All receipts have been removed</string>
+    <string name="menu_item_remove_title">Remove</string>
+    <string name="menu_item_share_title">Share</string>
+    <string name="share_intent_title">Share receipt to</string>
+    <string name="error_already_downloading">Receipt is already downloading</string>
+    <string name="error_wrong_cred">Wrong username or password</string>
+    <string name="error_receipt_not_exists">There is no receipt info on the server, please try again later</string>
+    <string name="error_too_many_attempts">Connection problems, please try again later</string>
+    <string name="snack_action_update_cred">Review auth</string>
+    <string name="snack_action_sign">Sign in</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#7C0F4C81</color>-->
+<!--    <color name="colorPrimaryDark">#7A002554</color>-->
+<!--    <color name="colorAccent">#E33B56</color>-->
+<!--    <color name="colorPrimaryLight">#704C77B1</color>-->
+<!--    <color name="colorFocus">#38434E</color>-->
+
+
+    <color name="colorAccent">#9B1B30</color>
+    <color name="colorFocus">#B0CBE7</color>
+    <color name="colorFocusBack">#29343E</color>
+    <color name="colorPrimary">#0C3B63</color>
+    <color name="colorPrimaryVariant">#99002554</color>
+    <color name="colorSecondary">#9B1B30</color>
+    <color name="colorSecondaryVariant">#018786</color>
+
+    <color name="colorBackground">#121212</color>
+    <color name="colorSurface">#121212</color>
+    <color name="colorError">#CF6679</color>
+    <color name="colorOnPrimary">#000000</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorOnBackground">#FFFFFF</color>
+    <color name="colorOnSurface">#FFFFFF</color>
+    <color name="colorOnError">#000000</color>
+
+
+    <color name="colorReceiptCardBackdround">@color/colorFocusBack</color>
+
+    <color name="textSummaryColor">#99FFFFFF</color>
+
+
+    <color name="textCardColor">#99FFFFFF</color>
+
+    <color name="menuIconColor">#99000000</color>
+</resources>
